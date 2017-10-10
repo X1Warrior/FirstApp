@@ -99,9 +99,8 @@
 			children = (
 				48A288CF1F8D47D90010A2A6 /* AppDelegate.swift */,
 				48A288D11F8D47D90010A2A6 /* ViewController.swift */,
-				48A288D31F8D47D90010A2A6 /* Main.storyboard */,
+				48A288FD1F8D4E290010A2A6 /* View */,
 				48A288D61F8D47D90010A2A6 /* Assets.xcassets */,
-				48A288D81F8D47D90010A2A6 /* LaunchScreen.storyboard */,
 				48A288DB1F8D47D90010A2A6 /* Info.plist */,
 			);
 			path = FirstApp;
@@ -123,6 +122,15 @@
 				48A288F11F8D47DA0010A2A6 /* Info.plist */,
 			);
 			path = FirstAppUITests;
+			sourceTree = "<group>";
+		};
+		48A288FD1F8D4E290010A2A6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				48A288D81F8D47D90010A2A6 /* LaunchScreen.storyboard */,
+				48A288D31F8D47D90010A2A6 /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
