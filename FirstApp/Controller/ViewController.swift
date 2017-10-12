@@ -12,8 +12,20 @@ class ViewController: UIViewController
     {
     var globalScore : Int = 0
     
-    weak var globalScore: UILabel!
+    for var globalScore = 0; globalScore < results.count ; globalScore += 1
+    {
+    if secondButton.touchInside = true
+    {
+    
+    }
+    else
+    {
+    
+    }
    
+    }
+    @IBOutlet weak var scoreLabel: UILabel!
+    
     @IBOutlet weak var secondButton: UIButton!
     
     @IBAction func secondMethod(_ sender: UIButton)
