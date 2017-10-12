@@ -10,7 +10,10 @@ import UIKit
 
 class ViewController: UIViewController
     {
-
+    var globalScore : Int = 0
+    
+    weak var globalScore: UILabel!
+   
     @IBOutlet weak var secondButton: UIButton!
     
     @IBAction func secondMethod(_ sender: UIButton)
