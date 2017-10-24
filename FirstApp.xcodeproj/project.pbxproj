@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4859E3461F8FF55F001BCA23 /* SecondSceenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4859E3451F8FF55F001BCA23 /* SecondSceenController.swift */; };
 		4859E3491F8FF9AC001BCA23 /* ColorTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4859E3481F8FF9AC001BCA23 /* ColorTools.swift */; };
+		487E3F341F9FB24000AE7943 /* MediaPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487E3F331F9FB24000AE7943 /* MediaPageController.swift */; };
 		48A288D01F8D47D90010A2A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A288CF1F8D47D90010A2A6 /* AppDelegate.swift */; };
 		48A288D21F8D47D90010A2A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A288D11F8D47D90010A2A6 /* ViewController.swift */; };
 		48A288D51F8D47D90010A2A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48A288D31F8D47D90010A2A6 /* Main.storyboard */; };
@@ -39,6 +40,7 @@
 /* Begin PBXFileReference section */
 		4859E3451F8FF55F001BCA23 /* SecondSceenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondSceenController.swift; sourceTree = "<group>"; };
 		4859E3481F8FF9AC001BCA23 /* ColorTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTools.swift; sourceTree = "<group>"; };
+		487E3F331F9FB24000AE7943 /* MediaPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaPageController.swift; sourceTree = "<group>"; };
 		48A288CC1F8D47D90010A2A6 /* FirstApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48A288CF1F8D47D90010A2A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48A288D11F8D47D90010A2A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 				48A288CF1F8D47D90010A2A6 /* AppDelegate.swift */,
 				48A288D11F8D47D90010A2A6 /* ViewController.swift */,
 				4859E3451F8FF55F001BCA23 /* SecondSceenController.swift */,
+				487E3F331F9FB24000AE7943 /* MediaPageController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -303,6 +306,7 @@
 			files = (
 				4859E3461F8FF55F001BCA23 /* SecondSceenController.swift in Sources */,
 				48A288D21F8D47D90010A2A6 /* ViewController.swift in Sources */,
+				487E3F341F9FB24000AE7943 /* MediaPageController.swift in Sources */,
 				48A288D01F8D47D90010A2A6 /* AppDelegate.swift in Sources */,
 				4859E3491F8FF9AC001BCA23 /* ColorTools.swift in Sources */,
 			);
