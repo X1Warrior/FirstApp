@@ -30,12 +30,33 @@
             super.didReceiveMemoryWarning()
         }
 
-@IBAction func soundButtonClick() -> Void
-{
-    playMusicFile()
-    view.backgroundColor = color.createRandomColor()
+        private func changeImage() -> Void
+        {
+            if (imageCounter > 5)
+            {
+                imageCounter = 0
+                
+            }
+            
+            if (imageCounter == 0)
+            {
+                
+            }
+        }
+        
+        @IBAction func soundButtonClick() -> Void
+        {
+        playMusicFile()
+        view.backgroundColor = color.createRandomColor()
         }
 
+       @IBAction func sliderMethod() ->Void
+       {
+        let seekTime = Double (soundSlider.value)
+        soundPlayer?.currentTime = seekTime
+        }
+        
+        
         private func playMusicFile() -> Void
         {
             if let isPlaying = soundPlayer?.isPlaying
@@ -49,7 +70,8 @@
                 soundPlayer?.play()
                 }
             }
-//            if ((soundPlayer?.isPlaying)!)
+//less stable version
+//  if ((soundPlayer?.isPlaying)!)
 //            {
 //                soundPlayer?.pause()
 //            }
